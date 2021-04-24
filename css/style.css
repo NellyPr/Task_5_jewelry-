@@ -71,6 +71,7 @@
   .wrapper{
       max-width: 1110px;
       margin: 0 auto;
+     
   }
 
  /*  ------HEADER STYLE------ */
@@ -519,6 +520,7 @@ hr{
 /* ------ */
 
 .text_gift_1{
+    /* display: flex; */
     position: absolute;
     width: 350px;
     height: 29px;
@@ -534,6 +536,7 @@ hr{
 }
 
 .text_gift_2{
+    /* display: flex; */
     position: absolute;
     width: 1110px;
     height: 41px;
@@ -836,34 +839,84 @@ hr{
 .info_email{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     width: 245px;
     height: 105px;
     margin-top: 248px;
     margin-left: 555px;
+
 }
 
 .link_box{
     display: flex;
-
+    flex-direction: column;
+    width: 245px;
+    height: 105px;
+}
+.link_string{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px;
 }
 
 .link_m{
+    display: flex;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 150%;
+    margin-left: 10px;
+    font-size: 16px;  /* 14px */
+    line-height: 150%; 
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.email_box{
+/* ---------------------------- */
+ .email_box{
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
     width: 448px;
     height: 113px;
+    border: 1px solid white;
 }
 
+.bg_box{
+    display: flex;
+    flex-direction: row;
+    width: 418px;
+    height: 85px;
+    background: rgb(255, 255, 255);
+}
+
+.in_email{
+    display: flex;
+    margin-left: 22px;
+    margin-top: 20px;
+    width: 200px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+}
+.but_mail{
+    width: 159px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background: #333333;
+    
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+ 
 
   
 
