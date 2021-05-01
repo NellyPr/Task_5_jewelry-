@@ -844,7 +844,6 @@ hr{
     height: 105px;
     margin-top: 248px;
     margin-left: 555px;
-
 }
 
 .link_box{
@@ -904,8 +903,7 @@ hr{
     height: 45px;
     margin-top: 20px;
     margin-left: 15px;
-    background: #333333;
-    
+    background: #333333;  
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 500;
@@ -917,6 +915,180 @@ hr{
     color: #FFFFFF;
 }
  
+/* ------------FOOTER------------ */
 
-  
+.footer_cont{
+    display: flex;
+    flex-direction: column;
+    width: 1110px;
+    height: 295px;
+    margin-top: 80px;
+}
 
+.block_line1{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_box_1{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 200px;
+}
+
+.footer_box_2{
+    width: 255px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.footer_box_3{
+    width: 255px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.footer_box_4{
+    width: 255px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+#fotter_line{
+    display: flex;
+    margin-top: 10px;
+    width: 255px;
+    border: 1px solid #333333;
+}
+
+.useful_links{
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer_text_box{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+}
+.footer_f{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #333333;
+    text-decoration: none;
+}
+
+.link_f{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.foot_text_bye{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 21px;
+    width: 255px;
+    height: 63px;
+}
+
+#card{
+    width: 45px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.footer_pic{
+    margin-right: 20.05px;
+}
+
+#logo-youtube{
+    margin-right: 21.62px;
+}
+#logo-vk{
+    margin-right: 27.94px;
+}
+#logo-facebook{
+    margin-right: 29.94px;
+}
+#lego-telegram{
+    margin-right: 28px;
+}
+
+#last_line{
+    display: flex;
+    margin-top: 60px;
+    width: 1110px;
+    border: 1px solid #333333;
+}
+
+.block_line3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+#copywriting {
+    display: flex;
+    width: 200px;
+    height: 21px;
+    margin-right: 175px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;
+}
+
+.docum{
+    display: flex;
+    width: 350px;
+    height: 21px;
+    margin-right: 50px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;
+    text-decoration: none;
+}
+
+.agent{
+    display: flex;
+    width: 93px;
+    height: 21px;
+    margin-right: 185px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;
+    text-decoration: none;
+}
+
+.figma_link{
+    display: flex;
+    width: 175px;
+    height: 21px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #333333;
+    text-decoration: none;
+}
